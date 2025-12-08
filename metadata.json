@@ -1,0 +1,5 @@
+{
+  "name": "DishaStock",
+  "description": "A professional AI-powered stock analysis platform featuring expert model ratings (Buffett, Lynch, Graham), real-time screener visualization, and portfolio management.",
+  "requestFramePermissions": []
+}
