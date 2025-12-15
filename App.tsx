@@ -1314,12 +1314,12 @@ export default function App() {
 
         <div className="p-6 border-t border-dark-border bg-dark-base/30">
           <div className="flex items-center space-x-3 p-2 rounded-xl hover:bg-dark-hover cursor-pointer transition-colors group">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-brand-blue to-brand-purple flex items-center justify-center text-white shadow-lg">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-gray-700 to-gray-600 flex items-center justify-center text-white shadow-lg">
               <User size={18} />
             </div>
             <div className="flex-1">
-              <div className="text-sm font-bold text-white group-hover:text-brand-cyan transition-colors">John Doe</div>
-              <div className="text-xs text-brand-cyan">Premium Plan</div>
+              <div className="text-sm font-bold text-white group-hover:text-brand-cyan transition-colors">Guest User</div>
+              <div className="text-xs text-gray-400">Free Plan</div>
             </div>
             <Settings size={18} className="text-gray-500 group-hover:text-white transition-colors" />
           </div>
